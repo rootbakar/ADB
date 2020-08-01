@@ -7,7 +7,9 @@
 * **MacOS**  
 
   ```adb connect 192.168.28.28:5555``` 
+  
   or using if you'r want directly access into android genymotion shell
+  
   ```adb shell``` 
 
 * **Connect into specific device, if you'r connected into multiple device**
@@ -20,3 +22,7 @@
   ```
 
   ```adb -s 192.168.1.17:5555 shell```
+  
+  or
+  
+  ```adb -s 192.168.56.128:5555 shell```
